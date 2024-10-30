@@ -1,0 +1,22 @@
+body{
+    font-family: 'Open Sans';
+    background-image: url('fondo_azul.PNG');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-size: 1.15em;
+}
+
+h1{
+    font-family: 'Lotus Eater Sans';
+    font-size: 6em;
+    padding-top: 100px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.img-fluid {
+    margin-top: -100px;
+}
