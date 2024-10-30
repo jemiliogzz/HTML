@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Lotus+Eater+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="estilo.css">
+    
+        <title>Inicio | Ziktuche</title>
+</head>
+<body class="bg-morado">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg negrita">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <img src="logo.png" alt="logo" width="50" height="50" class="d-inline-block align-top">
+                <span class="ms-2">Ziktuche</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="iniciar.html" class="nav-link" style="color: #B966C4;">Inicia sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="registro.html" class="nav-link">Regístrate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="card transparente">
+            <div class="card-header text-white text-center negrita" style="background-color: #B966C4;">
+                <h2>Inicia Sesión</h2>
+            </div>
+            <div class="card-body">
+                <form action="Iniciar.php" method="get">
+                    <div class="mb-3">
+                        <label for="nom_user" class="form-label">Usuario:</label>
+                        <input type="text" class="form-control" name="nom_user" id="nom_user" placeholder="Introduce tu nombre de usuario" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pass_user" class="form-label">Contraseña:</label>
+                        <input type="text" class="form-control" name="pass_user" id="pass_user" placeholder="Introduce tu contraseña" required>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn text-white" style="background-color: #DBBA0C;">Ingresar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <center>
+            <h2>¿No tienes cuenta?</h2>
+            <a href="registro.html" style="color: #DBBA0C">Regístrate</a>
+            <p>
+                ¡Es gratis!
+            </p>
+        </center>
+        
+    </div>
+</body>
