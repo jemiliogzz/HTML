@@ -17,6 +17,12 @@ body{
     background-position: center center;
 }
 
+.bg-amarillo{
+    background-image: url('fondo_amarillo.PNG');
+    background-size: cover;
+    background-position: center center;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Lotus Eater Sans';
 }
